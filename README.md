@@ -2,6 +2,18 @@
 
 Port used: 2369
 
+Keywords Used
+Name of company : "name"
+City : "city"
+Work from Home available or not : wfh
+Notice period: "notice"
+Ratings: "rating"
+No. of job open: "open"
+Skills needed : "skill"
+Details of company : "details"
+
+Note: I have used mock data from mockaroo so these details are not accurate and city details are actually country names.
+
 1. To get city with matched skill
 
 GET "/cs/:city/:skill"
